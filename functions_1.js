@@ -1,9 +1,37 @@
-//Declaração função
-function createPhrases() {
-    console.log("Bom dia")
-    console.log("Boa tarde")
-    console.log("Boa noite")
-}
+// Declaração função
+// function createPhrases() {
+//     console.log("Bom dia")
+//     console.log("Boa tarde")
+//     console.log("Boa noite")
+// }
 
-//Execução Função
-createPhrases()
+// Execução Função
+// createPhrases()
+
+// Function expression
+// Function anonymous
+
+// parâmetros (parameters)
+// const sum = function(number1, number2) {
+//     let total = number1 + number2;
+//     return total;
+// };
+
+// let number1 = 34;
+// let number2 = 25;
+// sum(number1,number2);
+
+// console.log("o número 1 é " + number1);
+// console.log("o número 2 é " + number2);
+// console.log("a soma é " + sum(number1,number2));
+
+// Function Scope
+// let subject
+
+// function createThink() {
+//     subject = "study"
+// }
+
+// console.log(subject)
+// createThink()
+// console.log(subject)

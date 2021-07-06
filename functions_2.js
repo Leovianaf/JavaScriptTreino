@@ -1,16 +1,29 @@
-// Function expression
-// Function anonymous
+//Function Hoisting
 
-// parâmetros (parameters)
-const sum = function(number1, number2) {
-    let total = number1 + number2;
-    return total;
-};
+// sayMyName()
 
-let number1 = 34;
-let number2 = 25;
-sum(number1,number2);
+// var sayMyName = function() {
+//     console.log("Leo")
+// }
 
-console.log("o número 1 é " + number1);
-console.log("o número 2 é " + number2);
-console.log("a soma é " + sum(number1,number2));
+//Arrow function
+
+// const sayMyName = (name) => {
+//     console.log(name)
+// }
+
+// sayMyName("Leo")
+
+//Callback Function
+
+// function sayMyName(name) {
+//     console.log("Antes de executar")
+//     name()
+//     console.log("Depois de executar")
+// }
+
+// sayMyName(
+//     () => {
+//         console.log("estou em uma callback")
+//     }
+// )
